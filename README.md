@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img alt="NYC Taxi" title="#NYC Taxi" src="./Assets/pngwing.com.png" width="200" height="200"/>
+ </h1>
+ 
 <h1 align="center">NYC Taxi Trip</h1>
 <p align="center">:mag: Análise dos dados sobre corridas de táxi em Nova York!</p>
 
