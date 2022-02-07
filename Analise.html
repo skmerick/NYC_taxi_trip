@@ -2,10 +2,53 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-  <title>Análise NYC Taxi Trip</title>
-  </head>
+<title>NYC Taxi Trip</title>
+</head>
 <body>
-Foi disponibilizado um banco de dados com informações de taxi.
-  </body>
-  
+
+<h1> TESTE TÉCNICO DADOSFERA </h1>
+
+<h2> Comentários </h2>
+<p> Foram disponibilizado quatro dados separados por ano (2009, 2010, 2011, 2012), com o mesmo numero de linhas e colunas.</p>
+<p>Importante destacar que as colunas têm os mesmos conteúdos nos quatro arquivos.</p>
+<p>Pelos arquivos serem de tamanhos não tão grandes, foi feito a junção em uma planilha antes de qualquer manipulação.</p>
+</p>
+
+<h3> Data Cleaning </h3>
+<p>Segue etapas feitas pós concatenação.</p>
+<p>- Checagem de missing values.</p>
+<p>- Eliminando a coluna Rate_code e store_and_fwd_flag por possuir muitos missing values e não afetarem a nossa análise.</p>
+<p>- Checagem de inconsistências nas colunas.</p>
+<p>- Alteração de todas as palavras para maiúscula e eliminando diferenças.</p>
+
+<h3>1. Qual a distância média percorrida por viagens com no máximo 2 passageiros</h3>
+<p>R: Fazendo uma consulta com somente viagens com menos ou igual a dois passageiros, e tirando a média, o resultado foi de 2.66u(não foi informado a métrica para a variavel, podendo ser Km, yard, miles e etc.</p>
+<p>Notar também que foram considerados viagens com zero passageiros, pois podem ser viagens de entrega.</p>
+
+<h3>2. Quais os 3 maiores vendors em quantidade total de dinheiro arrecadado</h3>
+<p>Feito o agrupamento por vendor e soma do valor total arrecadado, foi constatado que CMT, VTS e DDS foram os que mais arrecadaram dinheiro, respectivamente na ordem.</p>
+
+<h3>Faça um histograma da distribuição mensal, nos 4 anos, de corridas pagas em dinheiro</h3>
+<p>Foi criado uma nova tabela de análise que contêm as corridas pagas em dinheiro (CASH) e separados por mês e ano. </p>
+<img>histograma </img>
+
+<h3>Faça um gráfico de série temporal contando a quantidade de gorjetas de cada dia, nos
+últimos 3 meses de 2012.</h3>
+<p>Foi criado uma nova tabela de análise que contêm os últimos meses de 2012 que constam na tabela.</p>
+
+<h3>Qual o tempo médio das corridas nos dias de sábado e domingo</h3>
+<p>Sendo detectado o dia da semana de cada linha da tabela, foi feito a query, e a média tirada na coluna "tempo_corrida" que contém o tempo de cada corrida.</p>
+<img>histograma </img>
+
+<h3>Fazer uma visualização em mapa com latitude e longitude de pickups and dropoffs no ano
+de 2010</h3>
+<img>histograma </img>
+Podemos notar que grande parte dos pickup's se concentram na parte de Manhattan, distrito rico e cosmopolitano.
+
+<img>histograma </img>
+Notamos que os dropoffs já estão mais espalhados por toda a Nova York.
+
+
+
+</body>
 </html>
