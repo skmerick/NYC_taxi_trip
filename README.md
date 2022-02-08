@@ -30,4 +30,4 @@ Foi feito plotagem do mapa de Nova York e visualização dos pontos de pickup e 
 
 Feito por Erick Moon!
 Entre em contato, para qualquer dúvida!
-Emai: skmerick@gmail.com
+Email: skmerick@gmail.com
