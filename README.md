@@ -9,7 +9,7 @@
 
 ## Sobre o projeto
 
-Análise feita emcima de dados fornecidos pela Dadosfera que contem informações de corridas de táxi em Nova York de 2009 até 2012.
+Análise feita emcima de dados que contem informações de corridas de táxi em Nova York de 2009 até 2012.
 
 ## Como reproduzir o projeto
 
